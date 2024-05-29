@@ -25,4 +25,4 @@ if __name__ == '__main__':
     print(Pessoa.olhos)
     print(dorian.olhos)
     print(tantor.olhos)
-    print(id(Pessoa.olhos), id(tantor.olhos), id(dorian.olhos))
+    print(id(pessoa.olhos), id(tantor.olhos), id(dorian.olhos))
