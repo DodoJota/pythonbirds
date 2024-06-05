@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print(dorian.olhos)
     print(tantor.olhos)
     print(id(pessoa.olhos), id(tantor.olhos), id(dorian.olhos))
+
