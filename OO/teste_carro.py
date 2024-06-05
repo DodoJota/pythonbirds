@@ -13,3 +13,9 @@ class CarroTestCase(TestCase):
         motor.acelerar()
         self.assertEqual(1, motor.velocidade)
 
+    def teste_frear(self):
+        motor = Motor()
+        motor.frear()
+        self.assertEqual(0, motor.velocidade)
+
+
